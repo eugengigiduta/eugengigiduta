@@ -1,5 +1,7 @@
 # Four in Line App
 
+You play 🟡 / your opponent plays 🔴
+
 Have fun! 😉
 
 <!-- # Getting Started with Create React App
