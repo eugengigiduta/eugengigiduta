@@ -1,0 +1,108 @@
+body {
+  background-color: aliceblue;
+  user-select: none;
+}
+p {
+  margin-left: 40px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: grey;
+  font-weight: 900;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 3px 3px 2px rgb(179, 179, 210);
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+  height: 100%;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 30%; */
+  /* width: 90%; */
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+
+  width: 92px;
+  font-size: 25px;
+}
+.cell {
+  margin: 5px;
+  padding: 3px;
+  background-color: rgb(76, 69, 92);
+  box-shadow: 4px 5px 2px 1px rgb(179, 179, 210);
+  width: 56%;
+  height: 90%;
+  border-radius: 100%;
+  font-size: 30px;
+  text-align: center;
+  cursor: not-allowed;
+  border: 2px solid white;
+}
+.cell:hover {
+  scale: 1.1;
+  transition: all 0.4s;
+  box-shadow: 2px 1px 1px 1px rgb(179, 179, 210);
+  color: white;
+}
+.win {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 700px;
+  height: 130px;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 40px;
+  box-shadow: 3px 2px 2px 2px rgb(179, 179, 210);
+}
+.btn {
+  background-color: aliceblue;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: grey;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 17px;
+  font-weight: 900;
+  margin-bottom: 3px;
+  margin-top: 3px;
+
+  box-shadow: 4px 5px 2px 1px rgb(179, 179, 210);
+}
+.btn:hover {
+  border: 1px solid grey;
+  box-shadow: 2px 1px 1px 1px rgb(179, 179, 210);
+  background-color: white;
+  /* margin-bottom: 3px; */
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* margin-left: 30%; */
+  margin-bottom: 25px;
+  min-width: 700px;
+  div {
+    padding-bottom: 10px;
+  }
+}
+
+img {
+  border: 2px solid white;
+  border-radius: 70px;
+  box-shadow: 3px 3px 2px 2px lightgrey;
+  margin-right: 10px;
+}

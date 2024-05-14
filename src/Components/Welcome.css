@@ -1,0 +1,38 @@
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  width: 25%;
+  border: none;
+  width: 350px;
+  color: green;
+}
+form button {
+  border: none;
+  color: green;
+  margin-top: 15px;
+  border: 2px solid white;
+}
+input {
+  border: none;
+}
+span {
+  color: green;
+}
+button {
+  border: 2px solid white;
+  border-radius: 10px;
+  color: green;
+  font-size: 22px;
+  background-color: aliceblue;
+  box-shadow: 5px 4px 2px 1px rgb(179, 179, 210);
+}
+button:hover {
+  cursor: pointer;
+  box-shadow: none;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
