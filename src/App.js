@@ -17,7 +17,7 @@ function App() {
     if (
       users.find(
         (_, i, arr) =>
-          arr[i].firstName === user?.firstName ??
+          arr[i].firstName === user?.firstName &&
           arr[i].password === user?.password
       ) &&
       user.firstName
